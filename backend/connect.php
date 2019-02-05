@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "R__ico2002";
 $database = "web_snc";
 
 // Create connection
