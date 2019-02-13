@@ -23,7 +23,7 @@
     <a href="index.php?menu=halaman_peraturan_organisasi" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Peraturan Organisasi</a>
     <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>  Berita</a>
     <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-diamond fa-fw"></i>  Kepengurusan</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bell fa-fw"></i>  Kontak</a>
+    <a href="index.php?menu=halaman_kontak" class="w3-bar-item w3-button w3-padding"><i class="fa fa-phone fa-fw"></i>  Kontak</a>
     <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bell fa-fw"></i>  Download Materi</a> 
    <br><br>
   </div>

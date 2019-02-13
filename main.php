@@ -336,7 +336,7 @@
             <div class="form">
               <div id="sendmessage">Pesan Telah Terkirim</div>
               <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
+              <form action="bug.php" method="post" role="form" class="contactForm">
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Tulis Nama" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div class="validation"></div>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 17, 2019 at 02:31 PM
+-- Generation Time: Feb 13, 2019 at 03:16 AM
 -- Server version: 10.1.30-MariaDB
 -- PHP Version: 7.2.1
 
@@ -109,7 +109,8 @@ CREATE TABLE `tentang_kami` (
 --
 
 INSERT INTO `tentang_kami` (`id`, `judul`, `isi`) VALUES
-(2, 'Tentang Kami', 'Awalnya, ekskul ini hanyalah sebuah kelompok belajar yang dibentuk oleh 5 orang siswa jurusan TI. Seiring berjalannya waktu, ternyata banyak siswa-siswi lain yang berminat ikut dalam kelompok belajar ini. Kemudian salah satu dari anggota kelompok menyarankan agar kelompok belajar in dijadika ekskul di SMKN 3 Mataram. Semua anggota setuju lalu lahirlah WZC (Wireless Zone Community). Setelah berjalan satu tahun, para anggota berpikir bahwa tidak selamanya jaringan menggunakan wireless. Maka pada saat pelantikan anggota WZC angkatan pertama, para pencetus WZC sepakat untuk mengubah nama WZC (Wireless Zone Community) menjadi SNC (Smekti Nircable Community).\r\nTujuan umum Smekti Nircable Community (SNC) adalah sebagai berikut:\r\n1. Mencetak siswa-siswi SMKN 3 Mataram yang mampu mengharumkan nama sekolah melalui ilmu TIK.\r\n2. Membina siswa-siswi SMKN 3 Mataram menjadi siswa-siswi yang kreatif dalam dunia TIK.\r\n3. Melahirkan seorang hacker yang berguna bagi nusa dan bangsa.');
+(2, 'Tentang Kami', 'Awalnya, ekskul ini hanyalah sebuah kelompok belajar yang dibentuk oleh 5 orang siswa jurusan TI. Seiring berjalannya waktu, ternyata banyak siswa-siswi lain yang berminat ikut dalam kelompok belajar ini. Kemudian salah satu dari anggota kelompok menyarankan agar kelompok belajar in dijadika ekskul di SMKN 3 Mataram. Semua anggota setuju lalu lahirlah WZC (Wireless Zone Community). Setelah berjalan satu tahun, para anggota berpikir bahwa tidak selamanya jaringan menggunakan wireless. Maka pada saat pelantikan anggota WZC angkatan pertama, para pencetus WZC sepakat untuk mengubah nama WZC (Wireless Zone Community) menjadi SNC (Smekti Nircable Community).\r\nTujuan umum Smekti Nircable Community (SNC) adalah sebagai berikut:\r\n1. Mencetak siswa-siswi SMKN 3 Mataram yang mampu mengharumkan nama sekolah melalui ilmu TIK.\r\n2. Membina siswa-siswi SMKN 3 Mataram menjadi siswa-siswi yang kreatif dalam dunia TIK.\r\n3. Melahirkan seorang hacker yang berguna bagi nusa dan bangsa.'),
+(3, 'test', 'ererttr');
 
 --
 -- Indexes for dumped tables
@@ -165,7 +166,7 @@ ALTER TABLE `peraturan_organisasi`
 -- AUTO_INCREMENT for table `tentang_kami`
 --
 ALTER TABLE `tentang_kami`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

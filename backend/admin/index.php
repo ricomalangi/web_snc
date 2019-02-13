@@ -34,7 +34,7 @@
     <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();">
       <i class="fa fa-bars"></i>Menu
     </button>
-    <span class="w3-bar-item w3-right"><a href="../login/logout.php">LOGOUT</a></span>
+    <span class="w3-bar-item w3-right"><a href="../login/logout.php" style="color: white;">LOGOUT</a></span>
   </div>
   <?php include "menu.php"; ?>
 
@@ -73,12 +73,30 @@
     include "halaman_menu/delete_menu.php";
   }    
 
+  // untuk halaman tentang kami 
   else if($menu == "halaman_tentang_kami"){
     include "halaman_tentang_kami/halaman_tentang_kami.php";
   }
   else if($menu == "peroses_tentang_kami"){
     include "halaman_tentang_kami/peroses.php";
   }
+
+  // untuk halaman kontak
+  else if($menu == "halaman_kontak"){
+    include "halaman_kontak/halaman_kontak.php";
+  }
+  else if($menu == "edit_kontak"){
+    include "halaman_kontak/edit_kontak.php";
+  }
+  else if($menu == "peroses_edit_kontak"){
+    include "halaman_kontak/peroses.php";
+  }
+  else if($menu == "hapus_kontak"){
+    include "halaman_kontak/delete_kontak.php";
+  }
+
+
+  // untuk halaman peraturan
   else if($menu == "halaman_peraturan_organisasi"){
     include "halaman_peraturan/halaman_peraturan.php";
   }
@@ -94,6 +112,8 @@
   else if($menu == "peroses_edit_peraturan"){
     include "halaman_peraturan/peroses_edit_peraturan.php";
   }
+
+  // untuk halaman beranda
   else if($menu == "beranda"){
   	include "halaman_beranda/beranda.php";
   }  
